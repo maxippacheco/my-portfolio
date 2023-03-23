@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  nextjs
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +55,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Self-made Student",
     icon: creator,
   },
 ];
@@ -96,10 +97,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -108,63 +109,62 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "HTML, CSS, JS",
+    company_name: "My begginings",
+    icon: html,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2020 - September 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Start developing basic websites with HTML and CSS.",
+      "Start researching for new sources.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Trying to give my websites interactivity with Javascript.",
+    ],
+  },
+  {
+    title: "MERN Stack",
+    company_name: "Front-end specialization",
+    icon: nodejs,
+    iconBg: "#E6DEDD",
+    date: "Jan 2021 - September 2021",
+    points: [
+      "Developing web applications using React.js and other related technologies.",
+      "Learning how to connect my web applications with servers and creating fullstack applications.",
+      "Implementing responsive design and learning design patterns to improve my skills to another level.",
+      "Trying to help others like me in discord communities and participating actively in the community.",
     ],
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
     company_name: "Shopify",
-    icon: shopify,
+    icon: reactjs,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implementing e-commerce apps and different types of navigations on my personal projects.",
+      "Implementing different packages to have more functionalities.",
+      "Improving my React.js knowledge as well.",
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Next.js SSR",
     company_name: "Meta",
-    icon: meta,
+    icon: nextjs,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining web applications using Next.js and other related technologies.",
+      "Using differents rendering methods in order to get the best performance in the pages.",
+      "Applying SEO and metadata to put the page on the top of the browsers.",
     ],
   },
 ];
@@ -197,34 +197,34 @@ const testimonials = [
 ];
 
 const projects = [
+  // {
+  //   name: "Car Rent",
+  //   description:
+  //     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: carrent,
+  //   source_code_link: "https://github.com/",
+  // },
   {
-    name: "Car Rent",
+    name: "Teslo Shop",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web application that enables users to buy clothes using different forms to provide the content, with user authentication and payment methods.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -232,7 +232,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "material-ui",
         color: "pink-text-gradient",
       },
     ],
@@ -240,16 +240,16 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "React Maps",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A ReactJS app that allows the user to see maps and directions between two points, using Mapbox API and Context API to develop it in majority.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "context-api",
         color: "green-text-gradient",
       },
       {
@@ -258,7 +258,25 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/maxippacheco/react-maps",
+  },
+  {
+    name: "NPM Package",
+    description:
+      "A Reactjs NPM package that allows the user to create product cards with multiple options, and implementing design patterns such as state initializer and function child.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "design-patterns",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/maxippacheco/mp-product-card",
   },
 ];
 
